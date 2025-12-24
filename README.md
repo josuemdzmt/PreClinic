@@ -1,29 +1,52 @@
-# template
+# PreClinic - Plantilla Médica Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Plantilla médica desarrollada con Vue 3 y Vite para sistemas de gestión clínica.
 
-## Recommended IDE Setup
+## Requisitos
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Node.js (versión 18 o superior)
+- npm
 
-## Customize configuration
+## Instalación
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+Instala las dependencias del proyecto:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Desarrollo
+
+Inicia el servidor de desarrollo:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+La aplicación estará disponible en `http://localhost:5173` (o el puerto que Vite asigne).
+
+## Compilar para Producción
+
+Genera la versión optimizada para producción:
 
 ```sh
 npm run build
 ```
+
+Los archivos compilados se generarán en la carpeta `dist/`.
+
+## Vista Previa de Producción
+
+Para previsualizar la versión de producción localmente:
+
+```sh
+npm run preview
+```
+
+## Tecnologías
+
+- Vue 3
+- Vite
+- Vue Router
+- Bootstrap
+- Sass
